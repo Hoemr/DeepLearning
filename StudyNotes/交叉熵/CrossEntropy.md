@@ -248,7 +248,7 @@ And, in eq. (8), $s_1$ and $t_1$ are the score and the gorundtruth label for the
 
 The loss can be expressed as:
 $$
-CE = \left\{\begin{matrix} & - log(f(s_{1})) & & if & t_{1} = 1 \\ & - log(1 - f(s_{1})) & & if & t_{1} = 0 \end{matrix}\right. \tag{9}
+CE = \{\begin{matrix} & - log(f(s_{1})) & & if & t_{1} = 1 \\ & - log(1 - f(s_{1})) & & if & t_{1} = 0 \end{matrix}. \tag{9}
 $$
 Where $t_1=1$ means that the class $C_i=C_1'$ is positive for this sample.
 
